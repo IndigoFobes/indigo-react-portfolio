@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import Navigation from './Navigation';
 
 // export this to be used in App.js
 export default function Header () {
 
     return (
-        <div>
-            Hello! Starting my React App!
-        </div>
+        <header>
+            <h1>Indigo Fobes</h1>
+            < Navigation />
+        </header>
     )
 }
 

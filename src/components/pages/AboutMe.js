@@ -8,5 +8,5 @@ export default function AboutMe () {
                 This is a bit about me!
             </p>
         </div>
-    )
+    );
 }

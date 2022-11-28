@@ -1,11 +1,15 @@
 body {
   background-color: #B3C2F2;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   display: flex;
-  background-color: #E08D79; 
+  background-color: #e8ac9c; 
   justify-content: space-between;
 }
 
@@ -32,7 +36,7 @@ ul.nav-list {
 
 li.nav-item {
   display: flex;
-  background-color: #838790;
+  background-color: #a2a5ae;
   margin-top: 4rem;
   margin-right: 3rem;
   border-radius: 1rem 1rem 0 0;
@@ -50,6 +54,9 @@ li.nav-item {
 
 footer {
   background-color: aliceblue; 
-  display: flex;
-  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  height: 2.5rem;
 }

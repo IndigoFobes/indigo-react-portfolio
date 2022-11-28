@@ -1,7 +1,6 @@
 // The conditional nav function will go in here, to determine which page we render. So include a renderPage() function
 // import all other components/pages
 import React, { useState } from 'react';
-import Navigation from './Navigation';
 import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './pages/AboutMe';

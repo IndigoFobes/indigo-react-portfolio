@@ -6,7 +6,7 @@ export default function Header ({currentPage, handlePageChange}) {
 
     return (
         <header>
-            <h1>Indigo Fobes</h1>
+            <h1 className='indigo'>Indigo Fobes</h1>
             < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
     )

@@ -1,7 +1,55 @@
 body {
-  background-color: rgb(91, 150, 201);
+  background-color: #B3C2F2;
+
 }
 
 header {
+  display: flex;
+  background-color: #E08D79; 
+  justify-content: space-between;
+}
+
+.indigo {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 3rem;
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+li.nav-item {
+  display: flex;
+  background-color: #838790;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.nav-link {
+  padding: .75rem 1rem 1rem 1rem;
+  font-size: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.active {
+  background-color: #B3C2F2;
+}
+
+footer {
   background-color: aliceblue; 
+  display: flex;
+  align-self: flex-end;
 }

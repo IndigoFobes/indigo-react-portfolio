@@ -29,9 +29,11 @@ export default function PortfolioContainer() {
     // return navigation tabs with the appropriate props to change the page
     return (
         <div>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {renderPage()}
-        {/* <Footer /> */}
+            <main>
+                <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+                {renderPage()}  
+            </main>
+            <Footer />
         </div>
     )
 }

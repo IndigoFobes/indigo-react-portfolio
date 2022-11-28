@@ -2,7 +2,7 @@
 // import all other components/pages
 import React, { useState } from 'react';
 import Navigation from './Navigation';
-//import Header from './Header';
+import Header from './Header';
 import Footer from './Footer';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
@@ -29,12 +29,9 @@ export default function PortfolioContainer() {
     // return navigation tabs with the appropriate props to change the page
     return (
         <div>
-            <header>
-                <h1>Indigo Fobes</h1>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            </header>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
-            {/* <Footer /> */}
+        {/* <Footer /> */}
         </div>
     )
 }

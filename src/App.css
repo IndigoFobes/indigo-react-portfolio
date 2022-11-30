@@ -1,5 +1,6 @@
 body {
   background-color: #B3C2F2;
+  height: 100%
 }
 
 main {
@@ -42,6 +43,10 @@ li.nav-item {
   border-radius: 1rem 1rem 0 0;
 }
 
+.nav-item:hover {
+  background-color: #FDCA40;
+}
+
 .nav-link {
   padding: .75rem 1rem 1rem 1rem;
   font-size: 2rem;
@@ -65,3 +70,27 @@ footer {
   margin-top: 4rem;
 }
 
+.port-cont {
+  margin-top: 4rem;
+}
+
+.portfolio {
+  margin-top: 1rem;
+  background-color: aliceblue;
+  padding: 2rem 4rem;
+  border-radius: .5rem;
+}
+
+.project {
+  border-radius: .5rem;
+  opacity: 70%;
+}
+
+.project:hover {
+  opacity: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto
+}

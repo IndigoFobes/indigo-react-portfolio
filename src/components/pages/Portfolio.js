@@ -1,12 +1,44 @@
 import React from 'react';
+import BudgetBuddy from "../../assets/budget_buddy.png"
 
 export default function AboutMe () {
     return (
-        <div className='container-lg gx-5 h-100'>
+        <div className='port-cont container-lg gx-5 h-100'>
             <h1>Portfolio</h1>
             <p>
-                Here is my Portfolio!
+                Check out some of my recent work below.
             </p>
+            {/* container to hold all rows of apps */}
+            <div className='portfolio container-lg gx-5 h-100 text-center'>
+                {/* First row of two apps */}
+                <div className='row'>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 1</h2>
+                        <figure>
+                            <a href="https://budget-buddy-group-project.herokuapp.com/" target="blank"><img src={BudgetBuddy}></img></a>
+                        </figure>
+                    </div>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 2</h2>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 3</h2>
+                    </div>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 4</h2>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 5</h2>
+                    </div>
+                    <div className='col project m-4 p-2'>
+                        <h2>Project 6</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

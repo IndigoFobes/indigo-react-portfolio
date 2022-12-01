@@ -1,5 +1,6 @@
 import React from 'react';
 import BudgetBuddy from "../../assets/budget_buddy.png"
+import WeatherToday from "../../assets/weather-screenshot-copy.png"
 
 export default function AboutMe () {
     return (
@@ -13,13 +14,17 @@ export default function AboutMe () {
                 {/* First row of two apps */}
                 <div className='row'>
                     <div className='col project m-4 p-2'>
-                        <h2>Project 1</h2>
+                        <h2>Budget Buddy</h2>
                         <figure>
-                            <a href="https://budget-buddy-group-project.herokuapp.com/" target="blank"><img src={BudgetBuddy}></img></a>
+                            <a href="https://budget-buddy-group-project.herokuapp.com/" target="blank"><img src={BudgetBuddy} alt="Budget Buddy App dashboard, with user data and buttons to add data; red, white, and purple."></img></a>
                         </figure>
+
                     </div>
                     <div className='col project m-4 p-2'>
-                        <h2>Project 2</h2>
+                        <h2>Weather Today</h2>
+                        <figure>
+                            <a href="https://indigofobes.github.io/weather-today-app/develop/" target="blank"><img src={WeatherToday} alt="Weather Today dashboard with search history available to view, and "></img></a>
+                        </figure>
                     </div>
                 </div>
                 <div className='row'>

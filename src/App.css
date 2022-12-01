@@ -14,6 +14,20 @@ header {
   justify-content: space-between;
 }
 
+
+.all-content {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-container {
+  min-height: calc(100vh - 72px);
+  min-width: 100%;
+  display: flex;
+}
+
 .indigo {
   display: flex;
   align-self: flex-end;
@@ -57,13 +71,13 @@ li.nav-item {
   background-color: #B3C2F2;
 }
 
-footer {
+.footer--pin {
   background-color: aliceblue; 
-  position: absolute;
+  position: relative;
+  left: 0;
   bottom: 0;
-  width: 100%;
-  margin: auto;
-  height: 2.5rem;
+  height: 40px;
+  margin-top: 2rem;
 }
 
 .about-me {
@@ -93,4 +107,32 @@ footer {
 img {
   width: 100%;
   height: auto
+}
+
+@media screen and (max-width: 1150px){
+  .nav-list {
+    flex-direction: column;
+    margin: 1rem 3rem 4rem 0;
+    padding: 0
+  }
+
+  li.nav-item {
+    background-color: transparent;
+    margin: .1rem;
+    padding: 0;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .nav-item:hover {
+    background-color: transparent;
+    color: #FDCA40;
+  }
+
+  .active {
+    background-color: transparent;
+    color: #FDCA40;
+  }
 }

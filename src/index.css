@@ -16,3 +16,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Better-Yesterday";
+  src: url("../public/fonts/Better-Yesterday.otf");
+}
+
+@font-face {
+  font-family: "Better-Yesterday-italic";
+  src: url("../public/fonts/Better-Yesterday-italic.otf");
+}

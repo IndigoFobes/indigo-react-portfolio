@@ -46,7 +46,7 @@ export default function AboutMe () {
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col project m-4 p-2'>
+                    <div className=' col project m-4 p-2'>
                         <h2>Create README | Command Line</h2>
                         <figure>
                             <a href="https://github.com/IndigoFobes/create-readme" target="blank"><img src={CreateReadme} alt="Command line application. User is responding to questions in terminal about the readme they are trying to create."></img></a>

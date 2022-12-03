@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/indigo-react-portfolio/static/css/main.633d9184.css",
+    "main.js": "/indigo-react-portfolio/static/js/main.01aa0e18.js",
+    "static/js/787.36b4cca3.chunk.js": "/indigo-react-portfolio/static/js/787.36b4cca3.chunk.js",
+    "static/media/indigo_recent.JPG": "/indigo-react-portfolio/static/media/indigo_recent.416d6a6e23659b11ce49.JPG",
+    "static/media/create-readme.png": "/indigo-react-portfolio/static/media/create-readme.00b0884d9ec2cb388106.png",
+    "static/media/mysql-manager.png": "/indigo-react-portfolio/static/media/mysql-manager.1fe33aa11f1f4b8e56aa.png",
+    "static/media/Better-Yesterday-italic.otf": "/indigo-react-portfolio/static/media/Better-Yesterday-italic.5bed572ba27fc50e2163.otf",
+    "static/media/Better-Yesterday.otf": "/indigo-react-portfolio/static/media/Better-Yesterday.8a094f7dc0928bac532e.otf",
+    "static/media/code-blog.png": "/indigo-react-portfolio/static/media/code-blog.47470196f3d5e14244b5.png",
+    "static/media/weather-screenshot-copy.png": "/indigo-react-portfolio/static/media/weather-screenshot-copy.9af9095e843260f479eb.png",
+    "static/media/budget_buddy.png": "/indigo-react-portfolio/static/media/budget_buddy.be107da16ca971fbea88.png",
+    "static/media/coding-quiz.png": "/indigo-react-portfolio/static/media/coding-quiz.0dbe91d369273204954d.png",
+    "index.html": "/indigo-react-portfolio/index.html",
+    "main.633d9184.css.map": "/indigo-react-portfolio/static/css/main.633d9184.css.map",
+    "main.01aa0e18.js.map": "/indigo-react-portfolio/static/js/main.01aa0e18.js.map",
+    "787.36b4cca3.chunk.js.map": "/indigo-react-portfolio/static/js/787.36b4cca3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.633d9184.css",
+    "static/js/main.01aa0e18.js"
+  ]
+}

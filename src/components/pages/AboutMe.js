@@ -12,7 +12,7 @@ export default function AboutMe () {
                 Freelance web developer based in Alpharetta, Georgia. <br/> Full-stack trained with a love for UI-UX design and databases. Reach out for inquiries!
             </p>
             <div className= 'px-4 rounded-full mx-auto flex justify-center my-10'>
-                <img className="h-60 w-60 rounded-full align-middle shadow object-cover object-top" src={indigo} alt="Indigo Fobes, smiling big with a colorful scarf on."></img>
+                <img className="h-60 w-60 rounded-full align-middle shadow object-cover object-top mb-10" src={indigo} alt="Indigo Fobes, smiling big with a colorful scarf on."></img>
             </div>
         </div>
     );

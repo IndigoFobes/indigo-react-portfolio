@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a current, professional portfolio for my use as a professional web developer. Built with React.js and styled with Tailwindcss.
+This is a current, professional portfolio for my use as a professional web developer. Built with React.js and styled with Tailwindcss. Developed with a mobile-first design.
 
 ## Table of Contents
 

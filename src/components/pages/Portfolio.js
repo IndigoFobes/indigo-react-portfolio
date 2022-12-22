@@ -24,7 +24,10 @@ export default function AboutMe() {
           <h2 className="text-lg font-semibold">veriti</h2>
           <figure>
             <a href="https://veriti-app.herokuapp.com/" target="blank">
-              <img src={Veriti} alt=""></img>
+              <img
+                src={Veriti}
+                alt="Purple and pink background of giving application. Homepage."
+              ></img>
             </a>
           </figure>
           <div>
